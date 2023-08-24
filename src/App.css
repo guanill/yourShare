@@ -1,0 +1,188 @@
+.App {
+  text-align: center;
+  display: grid;
+  width: 100%;
+  height: 100%;
+
+}
+
+.App-link {
+  color: #61dafb;
+  text-decoration: underline;
+}
+
+
+.gif {
+position: absolute;
+height: 50%;
+background: white;
+opacity: 0;
+}
+.gif:hover{
+  opacity: 1;
+  transition: opacity 1.5s linear;
+
+}
+.gif:not(:hover){
+opacity: 0;
+transition: opacity 1.5s linear;
+}
+
+
+.addItem_container {
+  background-color: rgb(162, 194, 194);
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.borrowpage {
+  background-color: azure;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+  background-color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.back{
+position:absolute;
+z-index: 9;
+top: 85px;
+left: 10px;
+
+
+}
+.borrowitem{
+position: absolute;
+z-index: 9;
+top: 82px;
+left: 95px;
+
+
+}
+.borrow_button{
+position:absolute;
+bottom: 10%;
+right: 10%;
+
+}
+
+.Sing-in-button{
+ position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-size: 35px; 
+  font-weight: bold; 
+  text-decoration: none;
+  width: 200px;
+  height : 68px;
+
+
+}
+
+
+
+.blender{
+position: absolute;
+bottom: 30%;
+right: 7%;
+}
+
+.yourShare{
+position: absolute;
+bottom : 65%;
+left : 23%;
+}
+
+.joinCommunity{
+position : absolute;
+bottom : 72%;
+left : 58%;
+}
+
+.textBox{
+position: absolute;
+bottom : 35%;
+left : 58%;
+width : 400px;
+border : none;
+text-decoration:  none;
+}
+.upper_bar {
+  position:absolute; 
+  z-index:9; 
+  height:70px; 
+  top: 0px; 
+  left:0px;
+  right:0px; 
+  background-color:rgb(216, 213, 213);
+  color:rgb(216, 213, 213);
+  
+}
+
+.signup{
+position:absolute; 
+  height:45px; 
+  top: 300px; 
+  center : 30px;
+  left:940px;
+  
+
+}
+
+.join{
+position : absolute;
+bottom : -50px;
+right : 0px;
+width: 100px;
+height : 38px;
+color : black;
+ background-color: darkgray;
+}
+
+.container-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* This ensures the container takes the full height of the viewport */
+}
+
+.logo-container,
+.text-controls-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+}
+
+.logo-container {
+  align-items: flex-start; /* Align logo to the left */
+  margin-right: 2rem; /* Add some spacing between logo and text */
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    font-weight: bold;
+    /* animation: App-logo-spin infinite 20s linear; */
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
