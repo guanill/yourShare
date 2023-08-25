@@ -8,6 +8,13 @@ There's value in what communities collectively own today that's untapped. People
 
 Today sharing economy is in the hands of large corporations who operate bike, car, and living sharing marketplaces. Free exchange of goods falls onto platforms based on ad revenue. How do we bring that back down to communities and enable neighbors and friends to get collective benefit of what they own today? YourShare enables individuals to open what they have to their circles. Lenders can post items for sharing and borrowers can find what they need to get a job done. Have a car that you don't drive daily? Have a blender you only use sometime? Post these items and let others share value in what you own. Need a weed wacker to cleanup the block? Check out YourShare to see if a neighbor can chip in. YourShare starts with individuals and grows into a community lending library.
 
+## Technologies
+-ReactJS
+-BootStrap
+-HTML
+-CSS
+-JavaScript
+
 ## Customer profile
 
 YourShare's initial target market is college students and the communities around college and university campuses.
