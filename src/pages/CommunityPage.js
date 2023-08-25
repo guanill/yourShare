@@ -2,17 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom"
 import DynamicTable from "./components/DynamicTable";
 import { Container, Row, Col, Stack } from "react-bootstrap";
-import TextControlsExample from "./components/TextInput";
-
-
 import { useState } from 'react';
 import ButtonGroup from "react-bootstrap/ButtonGroup";
 import ToggleButton from 'react-bootstrap/ToggleButton';
-
 import Accordion from 'react-bootstrap/Accordion';
-
-
-
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
@@ -20,7 +13,6 @@ function TB() {
   return (
     <Stack direction="horizontal" gap={1}>
       <Form.Control className="me-auto" placeholder="Add..." />
-  
       <div className="vr" />
     </Stack>
   );
@@ -65,8 +57,6 @@ function TableAcc({ onAddRow }) {
   );
 }
 
-
-
 function TBC({ value, onInputChange }) {
   const [checked, setChecked] = useState(false);
 
@@ -102,6 +92,7 @@ export const CommunityPage =() => {
                 <img
                   src="https://th.bing.com/th/id/R.c57fe0969b74369fc0803b7630934ca8?rik=MKcE9R8nFWfxBw&pid=ImgRaw&r=0"
                   width="30"
+                  alt = "back"
                 />
               </button>
             </Link>
