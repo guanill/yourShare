@@ -1,9 +1,11 @@
-import React from "react";
+import React from 'react';
 
-
-export const Title = (title) => {
+const Title = ({ text, level }) => {
+  const HeadingTag = `h${level}`;
+  
   return (
-    <h1>{title}</h1>
+    <HeadingTag className="title-component">{text}</HeadingTag>
   );
-  }
+};
+
 export default Title;
